@@ -18,7 +18,7 @@ To download the announced subnets for a specific autonomous system (AS1234 IPv4 
 The same for all IPv6 subnets from AS1234:  
 ```$ curl https://raw.githubusercontent.com/ipverse/asn-ip/master/as/1234/ipv6-aggregated.txt```
 
-The data (IPv4 + IPv4 combined) is available in JSON format as well:  
+The data (IPv4 + IPv6 combined) is available in JSON format as well:  
 ```$ curl https://raw.githubusercontent.com/ipverse/asn-ip/master/as/1234/aggregated.json```
 
 The resulting JSON will look similar to this:
